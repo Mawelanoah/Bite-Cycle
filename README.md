@@ -26,6 +26,15 @@ This project was created as a professional demonstration to present to the busin
 
 Unconfirmed details (areas, hours, exact pricing terms) are clearly marked as placeholders.
 
+
+## IMPORTANT – Images / Assets
+
+The live site currently shows broken images because the `assets/` folder was not pushed to GitHub.
+
+**You must upload the entire `assets` folder** (containing `images/` and `icons/`) to the root of your repository alongside `index.html`.
+
+Without it, hero and service images will not appear.
+
 ## Quick Start
 
 1. Clone or download this repository.

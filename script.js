@@ -178,6 +178,16 @@
     });
   }
 
+
+  // Close mobile menu when clicking outside
+  document.addEventListener('click', function (e) {
+    if (nav && nav.classList.contains('open')) {
+      if (!nav.contains(e.target) && !hamburger.contains(e.target)) {
+        closeMenu();
+      }
+    }
+  });
+
   // ---------- Smooth scroll for same-page anchors (fallback) ----------
   document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
